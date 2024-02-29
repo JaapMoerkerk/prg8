@@ -1,6 +1,8 @@
 import { ChatOpenAI } from "@langchain/openai";
 import express from 'express';
-import dotenv from 'dotenv';
+import * as dotenv from "dotenv";
+
+dotenv.config();
 
 console.log("testing....")
 console.log(process.env.OPENAI_API_KEY)
