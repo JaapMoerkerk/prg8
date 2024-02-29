@@ -1,0 +1,18 @@
+{
+  "name": "prg8",
+  "version": "1.0.0",
+  "description": "PRG08 LLM app",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "author": "Jaap Moerkerk",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@langchain/openai": "^0.0.14",
+    "express": "^4.18.2",
+    "langchain": "^0.1.18"
+  }
+}
