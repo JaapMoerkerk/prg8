@@ -34,7 +34,10 @@ Your mission is to respond to that list with 3 short but concrete questions, tha
 final answer/destination. Please come up with these questions based on what your first instinct would be after 
 seeing the list. You will ask these question 1 by 1, waiting for the responses. After the last user response you
 will answer with the holiday destination in the format: 'City, Country'.
-This is the list, seperated by comma's: ${inputListString}. Your first response will be the first question out of the 3.
+This is the list, seperated by comma's: ${inputListString}. Your first response will be the first question out of the 3,
+the second response will be the second question, the third response will be the third question and the fourth response
+will be the destination in the format: 'Your ideal destination is: City, Country'. You cannot change this format and
+the 'City, Country' part should be filled with your answer.
 `;
         // Input list (array of strings) is joined as one string prompt
         const response = await model.invoke(
