@@ -122,5 +122,5 @@ async function generateWeatherDescription(weatherInfo) {
 }
 
 app.listen(serverPort, () => {
-    console.log(`Server is running on http://localhost:${serverPort}`);
+    console.log(`Server is running succesfully on the Render domain.`);
 });
